@@ -9,12 +9,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     var config = {
-      apiKey: "AIzaSyBt1QrV_9Bj_h9guyWFo_VTgjyEFk7ww-g",
-      authDomain: "react-todo-workshop.firebaseapp.com",
-      databaseURL: "https://react-todo-workshop.firebaseio.com",
-      projectId: "react-todo-workshop",
-      storageBucket: "react-todo-workshop.appspot.com",
-      messagingSenderId: "925454600908"
+      apiKey: "your-api-key",
+      authDomain: "your-domain",
+      databaseURL: "your-database-url",
+      projectId: "your-project-id",
+      storageBucket: "your-storageBucket",
+      messagingSenderId: "xxxxx"
     };
     firebase.initializeApp(config);
   }
